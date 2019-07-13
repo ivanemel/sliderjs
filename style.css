@@ -1,0 +1,56 @@
+.container{
+	width: 600px;
+	height: 300px;
+}
+
+.picture{
+	width: 100%;
+	height: 100%;
+}
+
+.slide{
+	width: 600px;
+	height: 300px;
+	background-size: cover;
+	position: absolute;
+	opacity: 0;
+	transition: opacity 1s;
+	z-index: 1;
+}
+
+.slide1{
+	background-image: url(img/img1.jpg);
+}
+
+.slide2{
+	background-image: url(img/img2.jpg);
+}
+
+.slide3{
+	background-image: url(img/img3.jpg);
+}
+
+.left{
+	display: inline-block;
+	position: relative;
+	top: 150px;
+	left: 100px;
+	z-index: 2;
+}
+
+.right{
+	display: inline-block;
+	position: relative;
+	top: 150px;
+	left: 500px;
+	z-index: 2;
+}
+
+a{
+	text-decoration: none;
+}
+
+.showing {
+    opacity: 1;
+    z-index: 2;
+}
